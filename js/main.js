@@ -66,3 +66,29 @@
 
 // var idade = prompt("Digite sua idade");
 // console.log(validaIdade(idade));
+
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar!";
+    // console.log(document.getElementById("agradecimento"));
+}
+
+function redirecionar(){
+    window.open("https://github.com/VictorH-Malta");
+    // window.location.href = "https://github.com/VictorH-Malta"; 
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "Obrigado por passar o mouse!";
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui.";
+}
+
+function load(){
+    alert("Página carregada");
+}
+
+function change(elemento){
+    console.log(elemento.value);
+}
